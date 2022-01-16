@@ -1,0 +1,32 @@
+/* SIDEBAR */
+/* breakpoints <= 800px: sidebar collassa
+801 px <= x <= 1330 : sidebar mostra alcune icone */ 
+
+@media screen and (max-width: 800px) {
+    .side-bar { 
+        display: none;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1330px) { 
+    .side-bar { width: 55px; }
+    .menu-item .icon {
+        font-size: 30px;
+        padding-right: 40px;
+    }
+}
+
+/* PLAYLIST */
+/* breakpoints 
+ 4 colonne (> 1140px)
+ 3 (>890px)
+ 2 ( > 510px )
+ 1 (< 509px ) */
+
+ 
+
+
+
+
+
+
