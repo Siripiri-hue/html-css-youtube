@@ -23,7 +23,17 @@
  2 ( > 510px )
  1 (< 509px ) */
 
- 
+@media screen and (max-width: 509px) {
+    .play-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 510px) and (max-width: 889px) { }
+
+@media screen and (min-width: 890px) and (max-width: 1139px) { }
 
 
 
