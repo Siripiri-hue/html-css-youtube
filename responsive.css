@@ -20,7 +20,6 @@
     }
     .widget#subscription { display: none; }
     .widget#your-videos li:not(:first-child) { display: none; }
-
 }
 
 /* PLAYLIST */
@@ -30,24 +29,29 @@
  2 ( > 510px )
  1 (< 509px ) */
 
-@media screen and (max-width: 509px) {
+@media screen and (max-width: 510px) { /*una colonna*/
     .play-list {
         display: flex;
         flex-wrap: wrap;
     }
-    .play-list-item { width: 100%; }
+    .main-container { width: 90%; }
+    .play-list-item { width: 100%; } 
 }
 
-@media screen and (min-width: 510px) and (max-width: 889px) { 
-
+@media screen and (min-width: 511px) and (max-width: 890px) { /*due colonne */
+    .play-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-container { width: 90%; }
+    .play-list-item { width: 45%; } 
 }
 
-@media screen and (min-width: 890px) and (max-width: 1139px) { 
-
+@media screen and (min-width: 891px) and (max-width: 1140px) { 
+    .play-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-container { width: 90%; }
+    .play-list-item { width: 30%; } 
 }
-
-
-
-
-
-
