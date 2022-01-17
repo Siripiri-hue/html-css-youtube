@@ -8,12 +8,19 @@
     }
 }
 
-@media screen and (min-width: 801px) and (max-width: 1330px) { 
-    .side-bar { width: 55px; }
-    .menu-item .icon {
-        font-size: 30px;
-        padding-right: 40px;
+@media screen and (min-width: 801px) and (max-width: 1330px) {
+    .side-bar { 
+        width: 60px;
+        font-size: 10px; 
     }
+
+    .menu-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .widget#subscription { display: none; }
+    .widget#your-videos li:not(:first-child) { display: none; }
+
 }
 
 /* PLAYLIST */
@@ -28,12 +35,16 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .play-list-item { width: 100%; }
+}
+
+@media screen and (min-width: 510px) and (max-width: 889px) { 
 
 }
 
-@media screen and (min-width: 510px) and (max-width: 889px) { }
+@media screen and (min-width: 890px) and (max-width: 1139px) { 
 
-@media screen and (min-width: 890px) and (max-width: 1139px) { }
+}
 
 
 
