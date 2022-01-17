@@ -47,11 +47,11 @@
     .play-list-item { width: 45%; } 
 }
 
-@media screen and (min-width: 891px) and (max-width: 1140px) { 
+@media screen and (min-width: 891px) and (max-width: 1140px) { /* tre colonne */
     .play-list {
         display: flex;
         flex-wrap: wrap;
     }
-    .main-container { width: 90%; }
+    .main-container { width: 100%; }
     .play-list-item { width: 30%; } 
 }
