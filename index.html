@@ -9,13 +9,39 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>YouTube</title>
 </head>
-<body>
-  <header>
 
+<body>
+
+  <header>
+    <div>
+      <i class="fas fa-bars"></i>
+      <img id="logo" src="img/kisspng-youtube-logo-advertising-windsor-castle-5b32f8d9e118c3.718439731530067161922.jpg">
+    </div>
+
+    <div>
+      <form action="">
+        <input type="text" placeholder="Cerca...">
+        <button>
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="mic">
+          <i class="fas fa-microphone"></i>
+        </button>
+      </form>
+    </div>
+
+    <div>
+      <ul>
+        <li><i class="fas fa-video"></i></li>
+        <li><i class="fas fa-th"></i></li>
+        <li><i class="far fa-bell"></i></li>
+      </ul>
+
+      <img id="profile-img" src="https://picsum.photos/23/23" alt="">
+    </div>
   </header>
 
   <main>
-
     <aside class="side-bar">
       <div class="widget">
         <ul class="widget__menu">
@@ -25,12 +51,14 @@
             </div>
             Home
           </li>
+
           <li class="menu-item">
             <div class="icon">
               <i class="far fa-compass"></i>
             </div>
             Esplora
           </li>
+
           <li class="menu-item">
             <div class="icon">
               <i class="fab fa-youtube"></i>
@@ -48,18 +76,21 @@
             </div>
             Raccolta
           </li>
+
           <li class="menu-item">
             <div class="icon">
               <i class="far fa-compass"></i>
             </div>
             Cronologia
           </li>
+
           <li class="menu-item">
             <div class="icon">
               <i class="fab fa-youtube"></i>
             </div>
             I tuoi video
           </li>
+
           <li class="menu-item">
             <div class="icon">
               <i class="fab fa-youtube"></i>
@@ -67,7 +98,6 @@
             Guarda più tardi
           </li>
         </ul>
-
       </div>
 
       <div class="widget" id="subscription">
@@ -80,7 +110,6 @@
             Guarda più tardi
           </li>
         </ul>
-
       </div>
     </aside>
 
@@ -93,6 +122,7 @@
         <li>Cartoni animati</li>
         <li>Videogiochi</li>
       </ul>
+
       <div class="play-list-wrapper">
         <ul class="play-list" >
           <li class="play-list-item">
